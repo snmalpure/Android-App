@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/design_default_color_primary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:gravity="center"
+            android:text="Select a branch to proceed..."
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/acmButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:background="@drawable/login_button"
+            android:text="PICT ACM Student Chapter"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/ieeeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/acmButton"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:background="@drawable/login_button"
+            android:text="PICT IEEE Student Branch"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/roboconButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ieeeButton"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:background="@drawable/login_button"
+            android:text="PICT ROBOCON"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/artButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roboconButton"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:background="@drawable/login_button"
+            android:text="PICT Art Circle"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/edcButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/artButton"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:background="@drawable/login_button"
+            android:text="Entrepreneurship Development Cell"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

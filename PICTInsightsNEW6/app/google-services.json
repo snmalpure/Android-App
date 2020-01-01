@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "564233857745",
+    "firebase_url": "https://pict-insights.firebaseio.com",
+    "project_id": "pict-insights",
+    "storage_bucket": "pict-insights.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564233857745:android:6fdf3ea5d737bd8a",
+        "android_client_info": {
+          "package_name": "com.example.pictinsights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564233857745-1dqibcs3jrfcsmvbe5v250pki1mvnaa8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pictinsights",
+            "certificate_hash": "26db5ed013d38c4afce390fcb62847b2c3447efa"
+          }
+        },
+        {
+          "client_id": "564233857745-gi38c3mm6hre495gta79sfjk5fo6edjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqd2Jc_wDL73HvGZ6dQR1L-Ccr7zEQzMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564233857745-gi38c3mm6hre495gta79sfjk5fo6edjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

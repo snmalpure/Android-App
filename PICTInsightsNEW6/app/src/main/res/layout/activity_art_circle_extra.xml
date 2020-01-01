@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".ArtCircleExtra">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background2"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        tools:context=".AcmActivity">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginTop="@dimen/dimen_16x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:gravity="center"
+            android:text="ART CIRCLE Achievements"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:background="@drawable/textbox"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen_16x"
+            android:paddingTop="@dimen/dimen_16x"
+            android:paddingRight="@dimen/dimen_16x"
+            android:paddingBottom="@dimen/dimen_16x"
+            android:text="Short Listed for Firodiya Karandak 2018"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:background="@drawable/textbox"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen_16x"
+            android:paddingTop="@dimen/dimen_16x"
+            android:paddingRight="@dimen/dimen_16x"
+            android:paddingBottom="@dimen/dimen_16x"
+            android:text="1st Best Western Singing – Surabhi Ponkshe"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/dimen_16x"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:background="@drawable/textbox"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen_16x"
+            android:paddingTop="@dimen/dimen_16x"
+            android:paddingRight="@dimen/dimen_16x"
+            android:paddingBottom="@dimen/dimen_16x"
+            android:text="3rd Best Drums – ManasBedekar"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginTop="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:gravity="center"
+            android:text="Featured News"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_16x"
+            android:layout_marginTop="@dimen/dimen_16x"
+            android:layout_marginRight="@dimen/dimen_16x"
+            android:autoLink="web"
+            android:background="@drawable/textbox"
+            android:linksClickable="true"
+            android:paddingLeft="@dimen/dimen_16x"
+            android:paddingTop="@dimen/dimen_16x"
+            android:paddingRight="@dimen/dimen_16x"
+            android:paddingBottom="@dimen/dimen_16x"
+            android:text="@string/art_news"
+            android:textColor="@color/white"
+            android:textColorLink="@color/textboxtext"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/artextraButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:layout_marginBottom="@dimen/dimen_16x"
+            android:background="@drawable/temp"
+            android:gravity="center"
+            android:text="View Notice"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginTop="@dimen/dimen_16x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:gravity="center"
+            android:text="Contact Us"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_16x"
+            android:layout_marginTop="@dimen/dimen_16x"
+            android:layout_marginRight="@dimen/dimen_16x"
+            android:autoLink="phone"
+            android:background="@drawable/textbox"
+            android:drawableLeft="@drawable/phone24"
+            android:drawablePadding="5dp"
+            android:linksClickable="true"
+            android:paddingLeft="@dimen/dimen_16x"
+            android:paddingTop="@dimen/dimen_16x"
+            android:paddingRight="@dimen/dimen_16x"
+            android:paddingBottom="@dimen/dimen_16x"
+            android:text="@string/art_contact"
+            android:textColor="@color/white"
+            android:textColorLink="@color/textboxtext"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_16x"
+            android:layout_marginTop="@dimen/dimen_16x"
+            android:layout_marginRight="@dimen/dimen_16x"
+            android:layout_marginBottom="@dimen/dimen_8x"
+            android:autoLink="web"
+            android:background="@drawable/textbox"
+            android:drawableLeft="@drawable/facebook"
+            android:drawablePadding="5dp"
+            android:linksClickable="true"
+            android:paddingLeft="@dimen/dimen_16x"
+            android:paddingTop="@dimen/dimen_16x"
+            android:paddingRight="@dimen/dimen_16x"
+            android:paddingBottom="@dimen/dimen_16x"
+            android:text="@string/art_fb"
+            android:textColor="@color/white"
+            android:textColorLink="@color/textboxtext"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">PICT Insights</string>
+    <string name="title_activity_main">PICT Insights</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="acm_title">PICT ACM Student Chapter (PASC)</string>
+    <string name="acm_intro">Association for Computing Machinery (ACM) is the world’s largest educational and scientific society, uniting educators, researchers and professors. PICT ACM student chapter (PASC) was established in 2011 with a view of fostering technical and non-technical qualities in an individual and helping them to shape their destiny. PASC started off with 4 founding members and in such a short period, PASC has grown to a big student chapter of nearly more than 220 ACM members. Appreciating our endeavour, PASC is awarded as BEST ACM STUDENT CHAPTER in India consecutively in 2018 and 2019.
+    </string>
+    <string name="acm_body">Preceded by membership drive, the biggest technical and non-technical event of PASC named ‘Pulzion’ is hosted and completed in the triumph of togetherness. This event is followed by different SIG’s, seminars, workshops and competitions throughout the year. With a view to reinforcing women, a different module of ACM women has also started. Every year we impart knowledge to hundreds of students and help them understand how they can contribute to the eld of computing science. We conduct several technical events in a year. We nurture the growth of inquisitive minds by providing them with every opportunity to excel in various fields.
+    </string>
+    <string name="acm_con">We always have the vision to give the best of our capabilities to help an individual to grow in all aspects and also to make ACM student chapter an ideal platform for students.
+    </string>
+    <string name="signupheader">Please fill in all the information...</string>
+    <string name="award">Best Student Chapter in India\n-Awarded by ACM India at ACM awards 2018</string>
+    <string name="pulzion">Conducted PULZION-19 successfully\n-Annual technical event</string>
+    <string name="ieeeTitle">PICT IEEE Student Branch</string>
+    <string name="ieee_intro">PICT IEEE Student Branch (PISB) was established in the year 1988 with an aim of inculcating a sense of technical awareness amongst its student members.
+        PISB aims to escalate the knowledge of developments and trends in the diverse field of technology by holding two major events every year- Credenz and Credenz Tech Dayz alongside several seminars, workshops, hackathons. Additionally, it is also marked by its Women In Engineering (WIE) chapter, an initiative for the empowerment of women. Another noteworthy feature of PISB is PICT IEEE Newsletter Group (P.I.N.G.). P.I.N.G. is the official gazette of PISB issued bi-annually. PISB has also been awarded with the IEEE Exemplary Student branch Award 2017.
+    </string>
+    <string name="ieee_body">WIE stands for Women In Engineering. The main aim of WIE is to facilitate the global recruitment and retention of women in technical disciplines.
+The PISB WIE Student Affinity Group was formed in 2012, and formally inaugurated in 2014. The PISB WIE Student Affinity Group has been regularly involving itself in programs and events which bring about development in the society.
+It has consistently conducted workshops and seminars for spreading technology literacy.
+        Under this effort, with the help, support and guidance of the WIE Pune Chapter, members of PISB WIE have visited various rural areas, with the aim of spreading tech literacy. PISB WIE team also conducts various events for women during Credenz Tech Days.
+    </string>
+
+    <string name="sig">Special Interest Groups (SIGs):
+There are special interest groups related to C Programming, C++ Programming and Web Development.</string>
+    <string name="edctitle">PICT EDC CELL</string>
+    <string name="edcintro">The ED-cell was founded by the college students,alumni,industry and faculty,towards the cause of producing quality leaders who contribute to the growth and development of mankind. PICT EDC was inaugurated on 4th March 2009. The mission of the cell is to instill the spirit of entrepreneurship and to provide a platform for the creation of successful entrepreneurs.
+    </string>
+    <string name="select_year">Select Year</string>
+    <string name="edcintro2">The Entrepreneurship Cell, PICT firmly believes that India needs the drive and innovation of young entrepreneurs. The Cell therefore aims at manifesting the latent entrepreneurial spirit of the youth. The Cell not only motivates the youth to start-up their own enterprise, but also makes efforts to provide them with the necessary resources to do so. Through our initiatives, we try to bring out your entrepreneurial skills and provide PICT students with the vital support system that a budding entrepreneur demands.
+    </string>
+    <string name="artintro">
+PICT Art Circle is the Cultural group of the college that officially represents the college at various levels. It also conducts and performs various shows on campus for the students. Students from all classes and departments are welcomed here. The PICT Art Circle is a place where you start at nothing, but in time can become a master in numerous things like music, painting, acting, etc.
+    </string>
+    <string name="artintro1">
+This cultural group provides students with an enriching experience and exposure to various prestigious platforms. The PICT Art Circle has a glorious past of performing excellently in the Purushottam Karandak and the Firodiya Karandak competitions. It has also left a significant mark in the Daajikaka Gaadgil Karandak and SPPU One Act Play competitions.
+    </string>
+    <string name="artintro2">The best thing about PICT ART CIRCLE is that there is no formal registration or membership fee that students have to pay to be a part. Every individual is free to come and learn. You will be an altogether different person once you are a part of this family away from your family.
+    </string>
+    <string name="credenz">Conducted CREDENZ\'19 successfully\n-Annual technical event</string>>
+
+    <string name="acm_contact">Himani Gwalani: 7387664241\nAditi Badhe: 9011138622 </string>
+    <string name="acm_link">https://www.linkedin.com/company/pict-acm-student-chapter/about/</string>
+    <string name="art_contact">Prof. Masram Sir: 7045449943</string>
+    <string name="art_fb">https://www.facebook.com/pictartcircle/</string>
+    <string name="edc_contact">Ajit Hande: 8806204686</string>
+    <string name="ieee_contact">ieee.pisb@gmail.com</string>
+    <string name="ieee_link">https://in.linkedin.com/company/pisbieee</string>
+    <string name="robocon_contact">https://pict.edu/cocurricular/robocon/</string>
+    <string name="robo_link">https://in.linkedin.com/company/pictrobotics</string>
+    <string-array name="year_array">
+        <item>F.E.</item>
+        <item>S.E.</item>
+        <item>T.E.</item>
+        <item>B.E.</item>
+    </string-array>
+    <string name="edc1">We provide office space, electricity, computers, internet connectivity and office furniture and guidance to students to start a company. This facility is provided for maximum period of 2 years.
+    </string>
+    <string name="roboconmain">
+    PICT has been participating in ABU Robocon since 8 years. We stood 4th in India in 2014 and 11th in India in 2017.
+     Students from all classes and departments are welcomed here. Robocon is a place where students can indulge their curiosity and the passion for robotics and dare to go beyond the boundaries of your academics to explore real life applications of their knowledge, learn new technologies and be exposed to national level competitions. The students also get to interact with over 90 colleges from all over the country, learn about designs, ideas and methods.
+    </string>
+    <string name="robotech">Robocon is an annual event which requires preparation,work and testing to be carried out for atleast 10 months a year. The team holds its introductory seminars and selection process for the interested third, second and first year students in the months of July and August-September respectively.
+    </string>
+    <string name="robodates">Tentative dates of Robocon for every academic year:-\nThird year seminar and selection process: Month of July.
+        Release of Robocon Theme and Tasks: Month end of August.
+        Second and First year introductory seminar and selection process: In the months of August and September.
+    </string>
+    <string name="roboaward">In 2018, the competition held at Ninh Binh, Vietnam. The theme comes from a traditional game in ethnic region of Vietnam, namely ném còn (throwing shuttlecock). The goal of the game is to throw the shuttlecocks through the ring at height.
+    </string>
+    <string name="roboaward2">In 2015, the theme was ‘Robominton’. The theme demanded us to build robots that could play a doubles game of badminton on a real sized court. The robots could either manually controlled or autonomously working.
+    </string>
+    <string name="roboranks">National ranks\n2014 &#8211; 04th\n2017 &#8211; 11th\n2018 &#8211; 14th</string>
+    <string name="art_news">To know more about Art Circle\'s achievements visit the following links :-\n
+    1. https://pict.edu/wp-content/uploads/2015/12/ECA-compliance-report-sem-I-18-19.pdf\n
+    2. https://pict.edu/wp-content/uploads/2015/12/ECA-report-sem-II-upto-3-04-19.pdf
+    </string>
+    <string name="select_cell">Interested in</string>
+    <string-array name="cell_array">
+        <item>ACM</item>
+        <item>IEEE</item>
+        <item>Robocon</item>
+        <item>Art Circle</item>
+        <item>EDC</item>
+    </string-array>
+    <string-array name="event_array">
+        <item>ACM</item>
+        <item>IEEE</item>
+        <item>Robocon</item>
+        <item>Art Circle</item>
+        <item>EDC</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_temp">temp</string>
+    <string name="title_activity_navigation">Navigation</string>
+</resources>

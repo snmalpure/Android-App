@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".ArtCircleListview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginTop="@dimen/dimen_16x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:gravity="center"
+            android:text="Art Circle NOTICE"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <SearchView
+            android:id="@+id/searchbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginTop="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:gravity="center"
+            android:iconifiedByDefault="true"
+            android:queryHint="Search Notice"
+            android:theme="@style/Searchbar"
+            android:searchIcon="@drawable/baseline_search_black_24dp"
+            android:closeIcon="@drawable/baseline_clear_black_24dp"/>
+
+        <ListView
+            android:id="@+id/list3"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/dimen_16x"
+            android:layout_marginBottom="@dimen/dimen_16x" />
+
+    </LinearLayout>
+</ScrollView>
